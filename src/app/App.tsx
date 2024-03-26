@@ -9,8 +9,8 @@ function App() {
     <>
       <Header />
       <Routes>
-        <Route path="/" element={<MainPage />} />
-        <Route path="/posts/:id" element={<PostPage />} />
+        <Route path="/Posts" element={<MainPage />} />
+        <Route path="/Posts/posts/:id" element={<PostPage />} />
       </Routes>
     </>
   );
