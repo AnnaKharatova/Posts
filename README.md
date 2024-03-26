@@ -6,6 +6,8 @@
 ![TypeScript](https://img.shields.io/badge/TypeScript-blue?logo=TypeScript&logoColor=black&labelColor=white)
 
 ## Описание  проекта
+https://annakharatova.github.io/Posts/
+
 Тестовое задание компании "Picasso". Проект написан на TypeScript, c использованием FSD-архитектуры, React Router DOM, RTKQuery.
 Загрузка списка постов происходт с JSONPlaceholder.
 Бесконечный скролл + виртуацизация: загружается 10 постов, по мере прокрутки страницы, загружается еще по 10 постов
