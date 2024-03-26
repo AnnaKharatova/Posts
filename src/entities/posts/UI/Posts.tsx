@@ -17,6 +17,7 @@ export const Posts: React.FC = () => {
       setPosts([...posts!, ...postsList])
       setFetching(false)
     }
+    // eslint-disable-next-line
   }, [fetching, postsList])
 
   useEffect(() => {
