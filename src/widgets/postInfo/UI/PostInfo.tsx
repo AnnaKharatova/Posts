@@ -16,8 +16,8 @@ export const PostInfo = () => {
         <main className="postInfo">
             <h3 className="postInfo__title"> {data?.id} {data?.title}</h3>
             <p className="postInfo__body">{data?.body}</p>
-            <div className="postInfo__button" onClick={() => { navigate('/') }}>
-                <Button>Вернуться к списку постов</Button>
+            <div className="postInfo__button" onClick={() => { navigate('/Posts') }}>
+                <Button>Назад</Button>
             </div>
         </main>
     );

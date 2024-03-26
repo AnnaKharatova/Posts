@@ -16,7 +16,7 @@ export const Post = ({post}:PropsType) => {
       <div className="post">
         <div className="post__title"> {post?.id} {post?.title}</div>
         <div className="post__body"> {post?.body} </div>
-        <div className="post__button"  onClick={()=>{navigate(`/posts/${post?.id}`)}}>
+        <div className="post__button"  onClick={()=>{navigate(`/Posts/posts/${post?.id}`)}}>
             <Button>К посту</Button>
         </div>
 
