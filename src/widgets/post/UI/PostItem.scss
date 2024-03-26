@@ -1,0 +1,26 @@
+.post {
+    margin-top: 15px;
+    padding: 10px;
+    border-radius: 24px;
+    background-color: rgb(235, 231, 231);
+
+    &__title {
+        font-size: large;
+        font-weight: 900;
+    }
+
+    &__body {
+        width: 100%;
+        overflow: hidden;
+        text-overflow: ellipsis;
+        white-space: nowrap;
+        height: 1em;
+        margin-bottom: 10px;
+    }
+
+    &__button{
+        display: flex;
+        justify-content: end;
+        margin-right: 10px;
+    }
+}
